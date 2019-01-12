@@ -1,0 +1,39 @@
+# Exercises
+
+## Questions
+
+### 1 What type of variable name casing do you use in JavaScript? (think of snakes or camels)
+
+_camelCase_
+
+### 2 If you want to create a variable called mentor and set its value equal to the name of your mentor, how would you do that?
+
+#### `var mentor;`
+#### `mentor = 'TJ Stalcup';`
+
+### 3 How would you then log the value of mentor to the console?
+
+`console.log(mentor);`
+
+
+### 4 Describe the difference between let, var, and const.
+
+_A variable defined with `var` is scoped to the entire function, or the global scope if declared outside of a function. Its value can be reassigned._
+
+_A variable defined with `let` is scoped to a particular code block, or set of curly brackets {}. Its value can be reassigned within that scope._
+
+_A variable defined with `const` is scoped to a particular code block, or set of curly brackets {}. Its value cannot be reassigned within that scope._
+
+# Code Practice
+## Using `var`, `let` and `const` create 3 variables that will hold your name, state, and hair color.
+
+```javascript
+
+var name = 'Michael';
+let state = 'Washington';
+const hairColor = 'Black';
+console.log(name);
+console.log(state);
+console.log(hairColor);
+
+``` 

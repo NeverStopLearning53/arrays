@@ -1,0 +1,65 @@
+#Exercises#
+
+** 1. Practice breaking it down! Choose one of the following to explain as if the listener has never done it before:
+What are the steps involved in making a peanut butter and jelly sandwich? **
+
+_Step One - Select 2 Pieces of Bread_
+
+_Step Two - Select a Knife_
+
+_Step Three - Select and Open a Can of Peanut Butter_
+
+_Step Four - Use knife to spread peanut butter on one of the pieces of bread._
+
+_Step Five - Select and Open a Jar of Jelly_
+
+_Step Six - Use knife to spread jelly on the other piece of bread._
+
+_Step Seven - Put the two pieces of bread together and enjoy!_
+
+** 2. In our “Say Hi” example, if the `Say Hi` part of the program never runs, how would you narrow down the cause of the problem? Explain the process and use a roadmap to visualize it. **
+
+We have a program that asks a user their name, and then says "Hello, (Username)!
+
+There are three steps in a linear progression that we can map out:
+
+###` User Name Input `---------->` User Button Click `----------->`Say Hi!`###
+
+The last part of the program `Say Hi!` is not working. Therefore it is necessary to troubleshoot the code to find the problem. 
+
+* Instead of looking at all of the code at one time it is way more efficient and effective to start at the step before the error occurred. 
+
+* In this case I would focus on the `User Button Click` code. I would test the code to see if it is working. 
+
+* If it is working then I know the error occurs later and focus on the `Say Hi!` code. 
+
+* If it is not working then I would go back to the `User Name Input` and make sure that code is working. If I find the `User Name Input` code is working then I would focus on the `User Button Click` code. 
+
+* If it isn't working then I would focus on the 'User Name Input` code. 
+
+* After fixing the code I would retest to make sure things are working. 
+
+* Once it was working I would move forward to the next step and test that code to see if it is working. 
+
+* Once that step is working then move to the next step until all three steps are working.
+
+** 3. Create a problem-solving example using a roadmap and the process of elimination for narrowing down issues of your own. You already use this skill daily. Break down and explain a problem you solve in your everyday life. **
+
+** Problem How to Schedule and Fit Assigned Work Schedule into a New Month **
+
+_Problem explained: Every month my work assignments differ and the number of work days varies from month to month making it a challenge to optimize and schedule my work. Some months I have have more work than I can accomplish and need to ask for some of it to be reassigned._
+
+* Step 1 - Take out a Calendar and Count the # of Work Days (Monday - Friday) that I have available to schedule work.`
+
+* Step 2 - Take out list of assigned jobs and assign a number based on number of days it will take to complete (some jobs can be done in 1/2 a day, some can be done in 1 day and some can take 2 days or more to complete.`
+
+* Step 3 - Add # of days from Step 2.
+
+* Step 4 - Compare total number of days from Step 3 to total number of days from Step 1.`
+
+* Step 5 - If Step 3 is greater than Step 1 then remove jobs until Step 1's total is less than Step 3's total.
+Ask manager for assistance in reassigning excess jobs. If Step 3 is equal or less than Step 1 then proceed to Step 6.
+
+* Step 6 - Assign Remaining to Calendar Work Days. Schedule jobs in similar geographical areas together to minimize travel time. Assign furthest jobs from home and jobs which may have weather delays early in the month to accommodate rescheduling if needed.
+
+* Step 7 - Double check work and make sure all assigned jobs scheduled and excess jobs have been reassigned.
