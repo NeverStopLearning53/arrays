@@ -28,7 +28,6 @@ var shoppingCart = [
 }
 ]
 
-var shoppingCartLength
 for (var i = 0; i < shoppingCart.length; i++) {
     console.log(shoppingCart[i].name);
 }
