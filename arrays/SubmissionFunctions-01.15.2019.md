@@ -8,7 +8,7 @@ DRY is an acronym for Don't Repeat Yourself. It is a principle in programming th
 
 ###2 Describe/define the difference between creating a function and calling/executing a function.
 
-Creating a function (or declaring a function) creates the block of code we want to complete an action. Creating (or declaring) the function does not execute the code. We need to call (or invoke) the function. To invoke a function, write the name of the function followed by parentheses.
+Creating a function (or declaring a function) creates the block of code we want to complete an action. Creating (or declaring) the function does not execute the code. We need to call (or invoke) the function. When we invoke a function the code executes. To invoke a function, write the name of the function followed by parentheses.
 
 ###3 Describe/define what arguments/parameters are and how they relate to functions.
 
