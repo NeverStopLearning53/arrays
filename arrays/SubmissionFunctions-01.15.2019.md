@@ -1,5 +1,3 @@
-I was able to get my javascript code to work but I am still a little bit confused about using return. I couldn't tell if total was correct until I used console.log(total). I also don't understand the function getTotalCost(prices). Is this a different function than getTotalCost(shoppingCart)? Sometimes I think talking to someone would really help but I guess I will wait for my weekly meeting unless you have another idea.
-
 #Exercises
 #Questions
 
