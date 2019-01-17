@@ -26,21 +26,23 @@ Creating a function (or declaring a function) creates the block of code we want 
 
 
 ```javascript
-
+// the variable shoppingCart is an array
+// since the elements inside of array can change we want to write a function which will always be able to total up the elements inside the array
 var shoppingCart = [20, 15];
-
-function getTotalCost(prices) {
+// we are declaring a function getTotalCost which will total up the elements inside the shopping cart array
+function getTotalCost(prices){
+//prices is the input we are going to use in this function / `prices` is a local variable
+//in this case `prices` input is going to use the shopping cart arrays elements
   let total = 0;
-  for(i=0; i < shoppingCart.length; i++) 
+  for (let i=0; i < prices.length; i++) 
     { 
-    total += Number(shoppingCart[i]);
-         } 
-   console.log(total);
-   return total; 
-   
-   }
-
+    total = prices[i] + total;
+    }     
+  // code above
+  return total;
+  
+}
+//using the input shoppingCart variable execute the getTotalCost Function
 getTotalCost(shoppingCart);
-
 
 ```
