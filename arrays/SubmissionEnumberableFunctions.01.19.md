@@ -26,8 +26,8 @@ _The code editor does not save code; it is a playground. If you leave the page, 
 
 var numbers = [1,2,3,4,5,6,7,8,9,2,3,4,5,6,1,2,3,4,5,6,7,8,8,4,3,2];
 var total = numbers
-.filter(item => item < 3) // returns [1,2,2,1,2,2]
-.reduce((total, item) => total + item); // returns 10
-console.log(total); // logs 10
+.filter(item => item > 3) // returns [3,4,5,6,7,8,9,4,5,6,4,5,6,7,8,4]
+.reduce((total, item) => total + item); // returns 96
+console.log(total); // logs 96
 
 ```
