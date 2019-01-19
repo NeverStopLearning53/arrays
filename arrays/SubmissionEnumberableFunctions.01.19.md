@@ -2,11 +2,11 @@
 # **Questions**
 ##### **1 Describe the `map()` function.**
 
-The map() function iterates over each item in the array, transforming it and returning a new array. map() does not modify the original array.
+The `map()` function iterates over each item in the array, transforming it and returning a new array. The `map()` function does not modify the original array.
 
 ##### **2 Describe the `filter()` function.**
 
-The filter() function iterates over each item in an array and keeps items when the condition is true.
+The `filter()` function iterates over each item in an array and keeps items when the condition is true.
 
 ##### **3 What is the difference between the `map()` and `filter()` functions?**
 
