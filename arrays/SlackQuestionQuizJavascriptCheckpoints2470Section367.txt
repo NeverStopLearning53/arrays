@@ -1,0 +1,45 @@
+Quiz Intermediate Javascript Part 1 - Checkpoints 2470 Section 367
+
+I have a clarification/follow-up question to question #10.
+
+Here is the code ...
+
+var x = 'outside';
+function logToConsole() {
+  console.log(x);
+  var x = 'inside';
+}
+logToConsole();
+
+```
+code above outputs: `undefined`
+```
+
+However, if I swap a couple of lines of code ...
+
+```
+var x = 'outside';
+function logToConsole() {
+  var x = 'inside';
+  console.log(x);
+}
+logToConsole();
+
+```
+##### Code above outputs: `"inside"`
+
+##### Is the reason for this the "Global" vs "Local" variable rule and the fact that Javascript can see that 'x' is being defined both locally and globally but the local defining occurs after the console.log code?
+
+I also tested the following code to see what my output would be:
+
+```
+var x = 'outside';
+function logToConsole() {
+//  var x = 'inside';
+  console.log(x);
+}
+logToConsole();
+
+```
+
+##### Code above outputs: `"outside"`
