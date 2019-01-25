@@ -29,25 +29,23 @@ Examples of Event Handlers are
 <body>
 	<h3>Shirts</h3>
 	<ul id='list'>
-    	<li onclick="selected('Biker Jacket')">Biker Jacket</li>
-    	<li onclick="selected('Mens Shirt')">Mens Shirt</li>
+    		<li>Biker Jacket</li>
+    		<li>Mens Shirt</li>
 	</ul>
 
-	<script>
+<script>
 			
+const listTag = document.getElementsByTagName('li');
 
-		function selected(message) {
+for (i=0; i < listTag.length; i++) {
+listTag[i].addEventListener('click', function(){
+  
+  console.log('You Selected a ', this.innerHTML);
+  });
+}
 
-			console.log(message + " Selected");
-
-		}
-
-			
-
-
+		
 </script>
-
 </body>
 </html>
-
 ```
