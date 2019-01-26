@@ -1,0 +1,43 @@
+# **Exercises**
+# **Questions**
+
+##### **1. Open your browser. Open up Chrome DevTools. Click on the Network tab on DevTools. Go to your bloc dashboard page. What Request Urls is Bloc using to get your information from the API?**
+* `https://api.segment.io/v1/t`
+* `https://api.segment.io/v1/p`
+* `https://api.segment.io/v1/i`
+
+##### **2. Where can I find the cookies being used on the webpage using the Chrome DevTools?**
+Open up Chrome DevTools ... click application ... click on cookies ... then see dropdown with website listed .. click on website and you will see list of cookies display to the right.
+
+##### **3. Where can you execute JavaScript in the DevTools?**
+Use the Console Tab.
+
+##### **4. How can you modify existing CSS on your webpage using the DevTools?**
+Use the Elements tab and you can either type in the pane below the elements tab or type in the styles pane to your right. You will see the webpage change in real time. You must remember, though, your changes are not being saved here.
+
+
+##### **5. What happens to the code you have altered through the DevTools when you refresh the page?**
+Your changes are not retained ...they are lost when you refresh the page.
+
+##### **6. What are the different ways you can add breakpoints to your Javascript for debugging?**
+
+**Line-of-code breakpoints**
+Use a line-of-code breakpoint when you know the exact region of code that you need to investigate. DevTools always pauses before this line of code is executed.
+
+**Conditional line-of-code breakpoints**
+Use a conditional line-of-code breakpoint when you know the exact region of code that you need to investigate, but you want to pause only when some other condition is true.
+
+**DOM change breakpoints**
+Use a DOM change breakpoint when you want to pause on the code that changes a DOM node or its children.
+
+**XHR/Fetch breakpoints**
+Use an XHR breakpoint when you want to break when the request URL of an XHR contains a specified string. DevTools pauses on the line of code where the XHR calls send().
+
+**Event listener breakpoints**
+Use event listener breakpoints when you want to pause on the event listener code that runs after an event is fired. You can select specific events, such as click, or categories of events, such as all mouse events.
+
+**Exception breakpoints**
+Use exception breakpoints when you want to pause on the line of code that's throwing a caught or uncaught exception.
+
+**Function breakpoints**
+Call `debug(functionName)`, where `functionName` is the function you want to debug, when you want to pause whenever a specific function is called. You can insert `debug()` into your code (like a `console.log()` statement) or call it from the DevTools Console. debug() is equivalent to setting a line-of-code breakpoint on the first line of the function.
