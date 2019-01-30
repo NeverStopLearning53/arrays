@@ -2,7 +2,6 @@
 # **Questions**
 
 ##### **1 What does "lexical scope" mean in JavaScript?**
-
 A convention used within programming languages that sets the scope of a variable so that it can only be referenced from within the block of code in which it is defined.
 
 ##### **2 What is an advantage of a programming language that uses lexical scoping?**
@@ -12,12 +11,10 @@ It allows global variables declared outside functions to be used inside function
 
 
 ##### **3 What is a closure?**
-
 Closures are nothing but functions with preserved data.
 A closure is a function having access to the parent scope, even after the parent function has closed.
 
 ##### **4 What would be a use case of a closure?**
-
 In this example we have a problem ...
 
 ```
@@ -88,3 +85,20 @@ The self invoking function only runs once. It sets the counter to zero (0), and 
 This way add becomes a function. The "wonderful" part is that it can access the counter in the parent scope.
 The solution is to use a JavaScript **closure.** It makes it possible for a function to have **"private"** variables.
 The counter is protected by the scope of the anonymous function, and can only be changed using the `add` function.
+
+# **Code Practice**
+##### **Create your own example of a closure and see if it works by using the console.log to print values and verifying they are what you expect.**
+
+```
+const arr = [10, 12, 15, 21];
+for (var i = 0; i < arr.length; i++) {
+  // pass in the variable i so that each function 
+  // has access to the correct index
+  setTimeout(function(i_local) {
+    return function() {
+      console.log('The index of this number is: ' + i_local);
+    }
+  }(i), 3000);
+}
+```
+
