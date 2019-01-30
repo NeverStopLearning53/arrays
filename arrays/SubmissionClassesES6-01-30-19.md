@@ -26,15 +26,15 @@ var Clothes = class {
 }
 // add code below
 class Shirt extends Clothes {
- constructor(name) {
-    super(name); // call the super class constructor and pass in the name parameter
+ constructor(name, size, price) {
+    super(name, size, price); // call the super class constructor and pass in the name parameter
  }
     type() {
-    console.log(this.name);
+    console.log(this.name, this.size, this.price);
   }
 }
 
-let s = new Shirt('Dress Shirt');
+let s = new Shirt('Dress Shirt', '14', '25');
 s.type(); // Dress Shirt
 ```
 
